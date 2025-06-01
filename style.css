@@ -1,0 +1,68 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 2em 1em;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 1em;
+  background-image: url('https://www.s3lab.io/download?uid=236&picture=1');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  pointer-events: none; /* Prevents drag */
+  user-select: none;
+}
+
+.id {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  font-weight: bold;
+}
+
+.id2 {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  font-weight: bold;
+  text-align: left;
+
+}
+main {
+  max-width: 700px;
+  margin: 2em auto;
+  padding: 0 1em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #ddd;
+}
